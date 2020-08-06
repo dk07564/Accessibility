@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" />
+    <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" app:srcCompat="@mipmap/ic_launcher" />
+    <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher_round" />
+    <VideoView android:id="@id/videoView2" android:layout_width="201.0dip" android:layout_height="145.0dip" />
+    <EditText android:id="@id/editText2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" android:hint="@string/app_name" android:ems="10" android:inputType="textPersonName" />
+    <LinearLayout android:orientation="vertical" android:layout_width="400.0dip" android:layout_height="465.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="248.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <VideoView android:id="@id/videoView" android:layout_width="135.0dip" android:layout_height="205.0dip" android:contentDescription="@string/app_name" />
+        <EditText android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" android:ems="10" android:inputType="textPersonName" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
